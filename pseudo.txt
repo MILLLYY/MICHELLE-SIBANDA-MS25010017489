@@ -1,0 +1,98 @@
+2.
+DISPLAY "Please enter your name:"
+
+  GET user_input and store it in first_name
+
+     DISPLAY first_name + "HELLO,WORLD"
+
+
+4.
+CREATE empty list called grocery_list
+
+  DISPLAY "enter a product(type "done" to finish)"
+
+    GET item from user
+
+      IF item is not "done" 
+
+        THEN
+
+          ADD item ro grocery_list   
+
+            ENDIF
+
+              UNTIL item is "done"
+
+                SORT grocery_list alphabetically
+
+  DISPLAY "product left to but:"
+
+    FOR each product in grocery_list 
+
+  DISPLAY product
+
+
+1.
+SET largest_number to 0
+
+  PRINT "enter a positive number(0 to stop) 
+
+    READ user user_input
+
+      IF user_input>largest_number
+
+        THEN               
+
+SET largest_number to user_input
+
+          ENDIF  
+
+            UNTIL user_input is 0
+            
+              PRINT "The largest number entered is:",largest_number
+
+
+3.
+SET total to 0
+
+SET count to 0
+
+  PRINT "enter an integer(or type "done" to finish) 
+
+   READ input
+
+     While is not "done"
+
+       CONVERT input to an integer
+
+SET total=total + input
+
+SET count= count + 1  
+
+         PRINT "enter an integer(or type "done" to finish):"
+
+   READ input
+
+           ENDWHILE
+
+             IF count>0
+
+               THEN
+
+SET  average=total/count                        
+
+         PRINT "The arthmetic averageis:",average
+
+           ELSE 
+
+         PRINT "no integers were entwered."
+
+
+5.
+READ X,Y 
+
+   X + Y = s
+   S / 2 = A 
+   X * Y = P
+
+     WRITE S,A,P
