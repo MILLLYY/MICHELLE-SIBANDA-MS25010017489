@@ -1,0 +1,26 @@
+1.The World Wide Web is a system of interlinked documents and other 
+resources,connected via hyperlinks that are accessed over the internet.
+ It is a global information system that allows access to 
+documents and we resources over the internet.
+2.The difference between a Web application's front-end and back-end is 
+that the front-end is what the users see and interact with,everything 
+from text and images to forms and buttons.The bacK-end is responsible 
+for handling the main processing tasks interacting with the database,
+handling complex computation and managing user authentication.So 
+basically frontend is the face of the application where users interact
+ while the back end is the engine room that powerfully drives the 
+ application through  the processing data.
+3.This is what occurs on the backend during a web interaction,your
+ browser sends an HTTP request to the web server.The sever processes 
+ the request,possibly passing it through middleware for tasks like
+  authentication.It the executes business logic and interacts  with 
+  the database if neccessary.The server formats the data ,creates an 
+  HTTP response,and sends it bact to upur browser.Finally,your browser
+   recieves the response and updates the display accordingly.This 
+   process ensurs smooth interaction between you anf the web application.
+4.the MERN stack is a combination of technologies used to create a web
+ application.It consists of MongoDB,Express.js,React.js and Node.js, 
+ which the word MERN is derived from.Each letter represents a different
+  technology and when combined they create a full-stack development
+   environment.Together they provide a powerful and efficient way
+    to develop mordern we applications fron-front end to back-end.
